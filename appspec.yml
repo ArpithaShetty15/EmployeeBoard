@@ -1,15 +1,15 @@
-version: 0.0
+iversion: 0.0
 os: linux
 
 files:
   - source: /dashboard.html
-    destination: /var/www/html/employee-login/
+    destination: /var/www/html/
   - source: /index.html
-    destination: /var/www/html/employee-login/
+    destination: /var/www/html/
   - source: /logout.html
-    destination: /var/www/html/employee-login/
+    destination: /var/www/html/
   - source: /style.css
-    destination: /var/www/html/employee-login/
+    destination: /var/www/html/
 
 hooks:
   BeforeInstall:
