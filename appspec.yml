@@ -1,6 +1,6 @@
-iversion: 0.0
+---
+version: 0.0
 os: linux
-
 files:
   - source: /dashboard.html
     destination: /var/www/html/
@@ -10,16 +10,8 @@ files:
     destination: /var/www/html/
   - source: /style.css
     destination: /var/www/html/
-
 hooks:
   BeforeInstall:
     - location: dep.sh
       timeout: 300
       runas: root
-
-
-  
-
-
-
-
