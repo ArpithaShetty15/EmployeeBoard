@@ -1,0 +1,25 @@
+version: 0.0
+os: linux
+
+files:
+  - source: /dashboard.html
+    destination: /var/www/html/employee-login/
+  - source: /index.html
+    destination: /var/www/html/employee-login/
+  - source: /logout.html
+    destination: /var/www/html/employee-login/
+  - source: /style.css
+    destination: /var/www/html/employee-login/
+
+hooks:
+  BeforeInstall:
+    - location: dep.sh
+      timeout: 300
+      runas: root
+
+
+  
+
+
+
+
